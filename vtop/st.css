@@ -1,0 +1,56 @@
+#d1{
+    background-color: rgba(0, 80, 185, 0.788);
+    text-orientation: inherit;
+    height: 60px;
+    margin-left: 0mm;
+    margin-right: 0mm;
+}
+.btn {
+    background-color: rgba(0, 80, 185, 0.788);; /* Blue background */
+    border: none; /* Remove borders */
+    color: rgb(255, 255, 255); /* White text */
+    padding: 7px 7px; /* Some padding */
+    font-size: 16px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+    
+  }
+.btn2{
+    background-color: rgba(0, 80, 185, 0.788);; /* Blue background */
+    border: none ; /* Remove borders */
+    color: rgb(255, 255, 255); /* White text */
+    padding: 7px 7px; /* Some padding */
+    font-size: 16px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+    box-sizing: border-box;
+    margin-left: 13px;
+  }
+
+
+
+
+.button{
+    cursor: pointer; /* make sure you get a hand when hovering the button with a mouse */
+    background-color: white;
+    border: 1px solid #777;
+    color: rgba(255, 255, 255, 0.979);
+    box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.5);
+    position: relative;
+    display: inline-block; /* This is important for the behaviour of the button */
+    font-size: 10px; /* You need to set a fixed font-size, because in some browser buttons have different relative font-size */
+    font-family: verdana; /* Some browsers also apply a different font to buttons, so you need to make sure this is the same */
+    text-align: center;
+    text-decoration: none; /* We do not want the a buttons to underline the text */
+    padding: 0px;
+    padding-left: 10px;
+    padding-right: 15px;
+    width: 20px; /* I have my regular input elements styled in a specific width, I do not want that width on my buttons, that is why I reset it to auto here */
+    height: 22px; 
+    /* Important: Do not use line-height here, instead trust the vertical-align: middle; below */
+    vertical-align: middle;
+    border-color: transparent;
+    padding-top: 10px;
+    
+}
+.button:hover{
+    background-color:rgb(143, 143, 143);
+}
